@@ -1,0 +1,64 @@
+{
+	"name": "sitegear3-adapter-filesystem",
+	"version": "0.0.1",
+	"description": "Filesystem adapter for sitegear3, intended for development use only (not at all scalable!)",
+	"keywords": [
+		"sitegear",
+		"sitegear3",
+		"framework",
+		"web",
+		"router",
+		"cms",
+		"content management",
+		"adapter",
+		"filesystem"
+	],
+	"homepage": "http://sitegear.org/",
+	"bugs": {
+		"url": "https://github.com/sitegear/sitegear3-adapter-filesystem/issues"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Sitegear.org",
+		"email": "admin@sitegear.org",
+		"url": "http://sitegear.org/"
+	},
+	"contributors": [
+		{
+			"name": "Ben New",
+			"email": "ben@leftclick.com.au",
+			"url": "http://leftclick.com.au/"
+		}
+	],
+	"main": "index",
+	"directories": {
+		"lib": "./lib",
+		"doc": "./doc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/sitegear/sitegear3-adapter-filesystem"
+	},
+	"scripts": {
+		"test": "grunt qa"
+	},
+	"dependencies": {
+		"lodash": "~2.4.1",
+		"graceful-fs": "~2.0.1",
+		"mkdirp": "~0.3.5",
+		"rimraf": "~2.2.6"
+	},
+	"devDependencies": {
+		"jasmine-node": "~1.13.0",
+		"grunt": "~0.4.2",
+		"grunt-cli": "~0.1.13",
+		"grunt-jasmine-node": "~0.1.0",
+		"grunt-jslint": "~1.1.2",
+		"grunt-contrib-watch": "~0.5.3"
+	},
+	"engines": {
+		"node": ">=0.8.0"
+	},
+	"readmeFilename": "README.md"
+}
+

@@ -7,5 +7,5 @@
 
 (function () {
 	"use strict";
-	module.exports = require('./lib/application.js');
+	module.exports = require('./lib/adapter.js');
 }());

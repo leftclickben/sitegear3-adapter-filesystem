@@ -8,7 +8,7 @@
 
 (function (_, filesystemAdapter, os, fs, jasmine) {
 	"use strict";
-	require('../../setupTests');
+	require('./setupTests');
 
 	describe('Data adapter: filesystem', function () {
 		it('Exports a function', function () {
@@ -270,4 +270,4 @@
 			});
 		});
 	});
-}(require('lodash'), require('../../../../lib/data/adapters/filesystem'), require('os'), require('graceful-fs'), require('jasmine-node')));
+}(require('lodash'), require('../../'), require('os'), require('graceful-fs'), require('jasmine-node')));

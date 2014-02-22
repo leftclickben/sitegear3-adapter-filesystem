@@ -8,7 +8,7 @@
 
 (function (_, filesystemAdapter, os, fs, jasmine) {
 	"use strict";
-	require('./setupTests');
+	require('../setupTests');
 
 	describe('Data adapter: filesystem', function () {
 		it('Exports a function', function () {

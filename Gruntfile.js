@@ -28,7 +28,7 @@
 						'lib/**/*.js'
 					],
 					options: {
-						log: 'build/log/jslint/jslint.src.log'
+						log: 'build/log/jslint/jslint.lib.log'
 					}
 				},
 				tests: {
